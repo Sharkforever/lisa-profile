@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lisa · 自我介绍卡片</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Noto Sans SC', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #f3e8ff);
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: start;
+      padding: 2rem 1rem;
+    }
+
+    .card {
+      width: 375px;
+      background: rgba(255, 255, 255, 0.75);
+      border-radius: 1.5rem;
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(200, 220, 255, 0.6);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+      overflow: hidden;
+      padding: 1.5rem;
+    }
+
+    .section-title {
+      font-weight: 700;
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .section-title i {
+      margin-right: 0.5rem;
+      color: #6366f1;
+    }
+
+    .divider {
+      height: 1px;
+      background-color: #e5e7eb;
+      margin: 1rem 0;
+    }
+
+    .link-block a {
+      color: #4f46e5;
+      text-decoration: underline;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <!-- 头像与基本信息 -->
+    <div class="flex items-center mb-4">
+      <img src="avatar_lisa.jpg" alt="头像" class="w-20 h-20 rounded-full border-4 border-indigo-200 shadow-md object-cover mr-4" />
+      <div>
+        <h1 class="text-xl font-bold text-gray-800">李莎 (Lisa Li)</h1>
+        <p class="text-sm text-gray-600">珠海 · 高校行政/科研助理意向</p>
+        <p class="text-sm text-gray-500">📞 19820516608 · ✉️ sha.li@vip.163.com</p>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!-- 自我简介 -->
+    <div class="mb-4">
+      <div class="section-title"><i class="fas fa-user"></i>个人简介</div>
+      <p class="text-sm text-gray-700 leading-relaxed space-y-1">
+        <span class="block">🎓 国际MBA背景（中山大学），校级优秀毕业生</span>
+        <span class="block">🧭 10年管理与项目经验，擅长0→1团队搭建</span>
+        <span class="block">🤖 擅长AI工具与高校数字化、赛事运营结合</span>
+        <span class="block">📚 熟悉科研项目流程、教学辅助系统</span>
+        <span class="block">🌐 具备中英双语沟通与教学能力</span>
+      </p>
+   </div>
+
+
+    <!-- 求职目标 -->
+    <div class="mb-4">
+      <div class="section-title"><i class="fas fa-bullseye"></i>求职目标</div>
+      <p class="text-sm text-gray-700">
+        高校行政或教学助理岗位。以AI工具、管理经验支持课程建设、项目申报与高校治理实践。
+      </p>
+    </div>
+
+    <!-- 教育背景 -->
+    <div class="mb-4">
+      <div class="section-title"><i class="fas fa-graduation-cap"></i>教育背景</div>
+      <ul class="text-sm text-gray-700 space-y-1">
+        <li>🎓 中山大学 国际MBA（优秀毕业生）</li>
+        <li>🇫🇷 GEM高端品牌管理（2025）</li>
+        <li>📘 湖南城市学院 英语专业</li>
+      </ul>
+    </div>
+
+    <!-- 专业认证 -->
+    <div class="mb-4">
+      <div class="section-title"><i class="fas fa-certificate"></i>专业认证</div>
+      <p class="text-sm text-gray-700">
+        PMP® · 人力资源管理师（二级） · 全媒体运营师 · TEM8 · AOW 潜水证 · Microsoft MOS
+      </p>
+    </div>
+
+    <!-- 核心技能 -->
+    <div class="mb-4">
+      <div class="section-title"><i class="fas fa-tools"></i>核心技能</div>
+      <ul class="text-sm text-gray-700 list-disc list-inside space-y-1">
+        <li>行政与科研项目管理</li>
+        <li>AI工具设计与智能体开发</li>
+        <li>数字化培训与教学辅助</li>
+        <li>大型活动与赛事管理</li>
+        <li>跨文化合作与英文沟通</li>
+      </ul>
+    </div>
+
+    <!-- 作品展示 -->
+    <div class="mb-4">
+      <div class="section-title"><i class="fas fa-link"></i>作品展示</div>
+      <div class="text-sm text-gray-700 link-block">
+        <a href="https://r0rel9lqdms.feishu.cn/docx/VSmedTYaLo6qdkxeVgVcO6R4nTg" target="_blank">🙌 RPA+AI 简单应用上手篇</a>
+        <a href="https://r0rel9lqdms.feishu.cn/docx/ApaJdYIkcohPKXxgVXLchBoSnwf" target="_blank">🔥 一键批量爆款视频转AI 工作流</a>
+        <a href="https://r0rel9lqdms.feishu.cn/docx/UsgPdAOcGojisRxgK6IcwbQfnEd" target="_blank">🤖 Coze 心理学智能体 - 视频小助手</a>
+	<a href="https://r0rel9lqdms.feishu.cn/docx/O33cdHmzYoadwMx3DP3cy6HRnqb">🎬 GEM Record（中山大学官媒收录）</a>
+      </div>
+    </div>
+
+    <!-- 微信二维码 -->
+    <div class="mb-2 text-center">
+      <img src="wechat_qr_lisa.jpg" alt="微信二维码" class="mx-auto w-36 rounded-md shadow-md border border-indigo-200 mb-2">
+      <p class="text-sm text-gray-600">扫码加我微信，一起探索AI与教育的边界 🚀</p>
+    </div>
+  </div>
+</body>
+</html>
